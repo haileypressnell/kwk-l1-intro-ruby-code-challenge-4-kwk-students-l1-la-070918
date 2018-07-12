@@ -1,4 +1,4 @@
-cents.gets
+cents.gets.chomp
 def least_coins(cents)
   coins = {}
   coins[:quarters] = cents/25 
