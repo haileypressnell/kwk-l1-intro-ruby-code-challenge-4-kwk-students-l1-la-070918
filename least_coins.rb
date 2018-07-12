@@ -1,4 +1,4 @@
-cents.gets.chomp
+cents = gets.chomp.to_i 
 def least_coins(cents)
   coins = {}
   coins[:quarters] = cents/25 
@@ -9,4 +9,4 @@ def least_coins(cents)
   coins[:pennies] =cents%5 
   puts coins
 end
-puts least_coins(29)
+puts least_coins(cents)
